@@ -1,0 +1,19 @@
+POP3 
+    • Post office protocol 3.
+    • It downloads emails from email server to your local device.
+    • Then it deletes the email from the email server
+    • If you want to retrieve your email you can  only view it from one device.
+    • Privacy .. email can only be seen from your device.
+    • It uses port 110 or 995. 110 is non-encrypted while 995 is for encrypted connections.
+
+IMAP
+    • Internet Message Access protocol
+    • It allows you to download your email from your email server onto multiple devices
+    • it keeps your messages on the email server.
+    • Its one of the more popular ways to retrieve emails.
+    • Uses port 143 the default non-encrypted port or 993 used over SSL.
+
+SMTP
+    • Simple Mail Transfer Protocol
+    • a protocol used for sending emails.
+    • Its default port is 25 non-encrypted or 465/587 encrypted over SSL.
