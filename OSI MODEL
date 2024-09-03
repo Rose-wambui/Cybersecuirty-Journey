@@ -1,0 +1,22 @@
+1
+Physical layer
+Converts data to wireless/electrical signals 
+2
+Data link layer
+Ensures reliable & error free data.
+3
+Network layer
+Selects the best path to route data over the network
+4
+Transport layer
+Established reliable connections
+5
+Session layer
+Manage communication sessions
+6
+Presentation layer
+Formats data so that its recognizable by applications
+Encryption & decryption
+7
+Application layer
+Provides interface by which users can access the network
