@@ -15,3 +15,7 @@ cron:
 
     Service: This is the service name that manages the cron daemon.
     Starting/Stopping: You can use commands like systemctl start crond or service crond start to start or stop the crond service.
+
+
+
+Cron is a job scheduling utility present in Unix like systems. The crond daemon enables cron functionality and runs in background. The cron reads the crontab (cron tables) for running predefined scripts.
