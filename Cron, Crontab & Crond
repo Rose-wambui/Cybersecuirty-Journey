@@ -1,0 +1,17 @@
+cron:
+
+    Daemon: It's a background process that runs continuously, checking for scheduled tasks.
+    Scheduler: It's responsible for executing tasks at specified times.   
+    Configuration: It reads configuration files (crontabs) to determine which tasks to run and when.  
+
+
+2. crontab:
+
+    Configuration File: A text file that contains a list of commands to be executed at specific times.
+    Format: Each line in a crontab file represents a scheduled task, specifying the time and the command to be executed.   
+    Editing: You can use the crontab command to edit your crontab file.
+
+3. crond:
+
+    Service: This is the service name that manages the cron daemon.
+    Starting/Stopping: You can use commands like systemctl start crond or service crond start to start or stop the crond service.
