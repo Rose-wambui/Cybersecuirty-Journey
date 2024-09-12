@@ -1,0 +1,20 @@
+DNS server types
+
+As mentioned previously, you can't rely on only one server to look after all DNS requests worldwide. You need many to deliver the service. One server can't store all the possible addresses on the internet, so the workload is spread across many servers playing different roles in collecting and storing information. 
+
+There are four types of DNS servers, illustrated in the diagram below, that provide a structure, each type playing a different role in that structure. There are the recursive DNS servers, the root domain servers, top-level DNS servers, and the authoritative DNS servers. The model is hierarchical, so you must start at the top and work your way down. Or, as in the diagram below, you start on the left and then work your way from the top down.
+Four types of DNS servers
+Recursive DNS server
+
+First is the recursive server – or resolver –which is usually the DNS server on your device with its IP address configured either manually or via DHCP. If it receives a DNS request and it's familiar with it, the recursive resolver can respond with the IP address straightaway from its memory. If the recursive resolver is unfamiliar with the IP address, the request must go to the root domain servers.
+Root domain servers
+
+There are 13 root domain servers spread across the world; all looked after by a governing body called the Internet Assigned Numbers Authority (IANA). The root domain servers' job is to direct queries to the correct location. Again, the root server could potentially have the answer if it has dealt with the IP recently, but if not, it will pass the query to the top-level domain servers that are responsible for that area. 
+Top-level DNS servers
+
+Top-level servers (TLD) look after large areas and even countries. Domain name extensions like .com, .co.uk, .net, and .org are all different TLD servers. Again, they can give the correct location if they have recently received this request. If not, they will forward the query to the authoritative name servers.
+Authoritative DNS servers
+
+These servers hold the specific information the client has been trying to obtain. Thus it will provide the necessary website name-to-IP-address translation for the recursive DNS server. These servers are where companies register their names – known as domains – like Microsoft.com or samsscoops.com. These servers are spread over hundreds of locations, providing the many DNS servers needed to support the internet.
+
+As you can note from the descriptions of the four different types of servers, requesting a name-to-IP-address translation repeats with each server level until the query has been answered. No further steps are required if the answer lies in the recursive DNS server. But if it doesn't, it has to be passed along through each type of server until the answer is returned.
