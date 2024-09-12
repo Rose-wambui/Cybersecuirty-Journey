@@ -18,3 +18,4 @@ Authoritative DNS servers
 These servers hold the specific information the client has been trying to obtain. Thus it will provide the necessary website name-to-IP-address translation for the recursive DNS server. These servers are where companies register their names – known as domains – like Microsoft.com or samsscoops.com. These servers are spread over hundreds of locations, providing the many DNS servers needed to support the internet.
 
 As you can note from the descriptions of the four different types of servers, requesting a name-to-IP-address translation repeats with each server level until the query has been answered. No further steps are required if the answer lies in the recursive DNS server. But if it doesn't, it has to be passed along through each type of server until the answer is returned.
+
